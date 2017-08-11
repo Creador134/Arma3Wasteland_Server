@@ -1,0 +1,56 @@
+-- STEAM CMD
+-- TDST
+-- Battleye Exteded Constrols (BEC)
+-- Arma Server Monitor (ASM)
+
+1º Pass
+
+- STEAM CMD Commands para instalar o ArmA III Server
+login <username>
+force_install_dir <diretorie>
+app_update 233780 validate
+
+2º Pass
+
+ASM = Copiei e cole os arquivos da pasta addon do diretório ASM na pasta do ArmA III Server
+
+3º Pass
+
+- TDST = Copie e cole o TDST para a pasta do ArmA III Server
+Crie um atalho do TDST para a área de trabalho e abra-o
+
+4º Pass
+
+- TDST = Configure o TDST para rodar o servidor
+<RULES>
+Votting Enable = FALSE
+Verify Signature = V2
+Required Secure ID = 2
+Perssistent Battlefield = OK
+Battleye = OK
+<MISSIONS>
+
+<MODS>
+@ASM = OK
+
+5º PASS
+
+ASM = Abra o executável do ASM na pasta Binary do Diretório ASM
+
+6º Pass
+
+BEC = Configure o arquivo Config.cfg na pasta Config do diretório do BEC
+deixando as linhas iguais a estas abaixo
+#IgnoreChatChars	=
+#DisallowPlayerNameChars	=
+MinPlayerNameLength	= 5
+#ServerExeName = NewArmaExeName.exe
+
+BEC = Crie um atalho o Bec.exe na área de trabalho e nele insira as linhas com um espaço de diferença
+--dec -f Config.cfg
+No Diretório do Arma_III_Server procure a pasta do TADST e nele prucre a pasta default e dentro dela abra a pasta Battleye
+Lá crie um arquivo de texto chamado BEserver.cfg e nele escreva as linhas abaixo e depois salve-o
+RConPassword password
+maxping 500
+Em seguida crie outro arquio de texto chamado ban.txt na mesma pasta
+

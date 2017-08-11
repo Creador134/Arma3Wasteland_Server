@@ -1,0 +1,19 @@
+﻿15:18:49 BattlEye Server: Initialized (v1.217)
+15:18:49 Host identity created.
+15:18:49 Game Port: 2302, Steam Query Port: 2303
+15:18:49 Mission Wasteland_CoreV2M1.Stratis read from bank.
+15:18:49 Roles assigned.
+15:18:49 Reading mission ...
+15:18:58 Mission read.
+15:18:59 Game started.
+15:19:03 Rick uses modified data file
+15:19:03 BattlEye Server: Player #0 Rick (127.0.0.1:2304) connected
+15:19:03 Player Rick connecting.
+15:19:04 BattlEye Server: Connected to BE Master
+15:19:05 BattlEye Server: Player #0 Rick - GUID: e88385bb8f7ff3e151b8a64b02f74959
+15:19:07 Player Rick connected (id=76561198084061499).
+15:19:07 BattlEye Server: Verified GUID (e88385bb8f7ff3e151b8a64b02f74959) of player #0 Rick
+15:19:32 Admin logged in, player: Rick, playerUID: 76561198084061499, IP: 192.168.1.11:2304.
+16:13:51 Player Rick disconnected.
+16:13:51 BattlEye Server: Player #0 Rick disconnected
+16:13:51 Admin logged out, player: Rick, playerUID: 76561198084061499, IP: 192.168.1.11:2304.
